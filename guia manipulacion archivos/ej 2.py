@@ -2,15 +2,15 @@
 
 def main():  
     lst = []
-    n = int(input("ingrese cant lineas: "))
+   
     arch = open("txt.txt","r")  
     ver = arch.readlines()   
 
     for x in range(0,len(ver)):
-        palabra = ver[x]         
+        palabra = ver[0,4]         
         lst.append(palabra)      
     
-    for x in range(0,n):
+    for x in range(0,4):
         print(lst[x])
 
     arch.close() 

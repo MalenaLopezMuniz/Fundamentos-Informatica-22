@@ -1,0 +1,18 @@
+body {
+    margin-left: 23px
+}
+
+.titulo {
+    margin-left: 20px;
+    background-color: aqua;
+    border: black 1px solid;
+    padding-left: 30px;
+}
+.galeria img{
+        width: 400px;
+        height: 300px;
+}
+.galeria h4{
+    font-size: 20px;
+    font-family: fantasy;
+}
